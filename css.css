@@ -1,3 +1,6 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .isi {
     display: flex;
     justify-content: space-between;
@@ -25,4 +28,20 @@
     margin: 5px 5px;
     padding: 5px 5px;
 }
+.isi-2 {
+    display: flex;
+    gap: 15px;
+}
 
+.mark {
+    text-decoration: line-through;
+}
+.fns {
+    background-color: green;
+}
+.tog-button:hover {
+    background-color: rgb(3, 176, 3);
+}
+.del-button:hover {
+    background-color: rgb(255, 17, 17);
+}
