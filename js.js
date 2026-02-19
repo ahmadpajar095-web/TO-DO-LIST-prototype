@@ -18,13 +18,10 @@ function box() {
     btn1.textContent = ('berlangsung')
     btn2.textContent = ("hapus")
     btn2.addEventListener("click", function() {
-        p.remove()
-        p1.remove()
-        p2.remove()
-        ol.remove()
-        btn1.remove()
-        btn2.remove()
-        if (daftar.children.length === 1){
+        p.classList.add('slide-out')
+        setTimeout(() => p.remove(), 200)
+        const sisatask = document.querySelectorAll('.isi')
+        if (sisatask.length === 1 ){
             kosong.textContent = 'tugas tidak ditemukan'
         }
     })
