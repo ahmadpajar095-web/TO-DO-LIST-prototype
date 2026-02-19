@@ -31,6 +31,11 @@ function box() {
     btn1.addEventListener('click', function() {
         ol.classList.toggle('mark')
         btn1.classList.toggle('fns')
+        if (btn1.textContent == 'berlangsung') {
+            btn1.textContent = ('selesai')
+        }else {
+            btn1.textContent = ('berlangsung')
+        }
     })
     ol.textContent = (inp)
     p.append(p1)
