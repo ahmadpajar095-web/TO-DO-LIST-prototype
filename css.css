@@ -22,10 +22,12 @@ body {
 .isi {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
     border: 1px solid ;
     margin: 5px 5px;
     padding: 5px 5px;
+    border-radius: 5px;
 }
 .inbox {
     display: flex;
@@ -68,11 +70,28 @@ body {
 .fns {
     background-color: green;
 }
+.tog-button {
+    border: none;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px black;
+}
 .tog-button:hover {
-    background-color: rgb(3, 176, 3);
+    background-color: rgba(27, 191, 27, 0.814);
+}
+.del-button {
+    border: none;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px black;
 }
 .del-button:hover {
-    background-color: rgb(255, 17, 17);
+    background-color: rgba(228, 63, 63, 0.798);
+    border: none;
 }
 
 .back {
@@ -87,4 +106,9 @@ body {
     transform: translateX(100%);
     opacity: 0;
     transition: transform 0.5s ease , opacity 0.5s ease;
+}
+.kosongan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
