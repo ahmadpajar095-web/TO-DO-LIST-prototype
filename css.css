@@ -1,0 +1,28 @@
+.isi {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid ;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+.inbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.input {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    width: 100%;
+
+}
+.in-button {
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+.label {
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
