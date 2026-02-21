@@ -9,9 +9,9 @@ Tujuan utama: belajar manipulasi DOM, event handling, dan pengelolaan elemen din
 - Menampilkan pesan "tugas tidak ditemukan" saat daftar kosong.
 
 ## Struktur Project
-- `html.html` → struktur halaman.
-- `css.css` → styling tampilan.
-- `js.js` → logika tambah/hapus task.
+- `index.html` → struktur halaman.
+- `style.css` → styling tampilan.
+- `main.js` → logika tambah/hapus task.
 
 ## Rencana Pengembangan
 - Level 8: fitur "mark as done" (centang tugas selesai).
